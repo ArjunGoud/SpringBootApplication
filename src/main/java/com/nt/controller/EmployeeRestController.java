@@ -19,6 +19,7 @@ public class EmployeeRestController {
 	@Path("/modify")
 	public String updateEmployee() {
 		System.out.println("hii");
+		System.out.println("hello");
 		return "EMP UPDATE";
 	}
 	
